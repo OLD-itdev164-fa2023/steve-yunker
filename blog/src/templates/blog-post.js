@@ -21,7 +21,7 @@ query blogPostQuery($slug: String!) {
         title
     slug
     body {
-            childMarkdownRemark {
+             childMarkdownRemark { 
                 html 
     }
   }
